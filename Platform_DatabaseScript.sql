@@ -65,7 +65,7 @@ alter table platform_database.PedVenda_cabecalho modify idPedCabecalho int auto_
 create table if not exists platform_database.PedVenda_linhas (
 	idPedLinhas int,
     idPedCabecalho int,
-    idItem int,    
+    idItem int,
     valUnit decimal(10,2) not null,
     pedQtde int not null
 );
